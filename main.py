@@ -30,7 +30,7 @@ def analyze_sentiment(text):
     return sentiment, emotion, confidence, scores
 
 # Streamlit UI
-st.title("Sentiment & Emotion Analysis Demo")
+st.title("Sentiment & Emotion Analysis")
 st.markdown("---")
 
 user_input = st.text_input("Enter your social media text here:")
